@@ -6,7 +6,8 @@
   "author": "Rahul Desai <rd825@georgetown.edu>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch",
+    "test:once": "jest"
   },
   "dependencies": {
     "assert": "^1.4.1",
