@@ -9,7 +9,12 @@
  function reverseString(string) {
     return string.split('').reverse().join('');
  }
+
+ function returnArray() {
+     return [1,2,3,4];
+ }
  
  module.exports = {
-     reverseString
+     reverseString,
+     returnArray,
  }
