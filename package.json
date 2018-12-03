@@ -6,10 +6,11 @@
   "author": "Rahul Desai <rd825@georgetown.edu>",
   "license": "MIT",
   "scripts": {
-    "test": "nodemon test.js"
+    "test": "jest"
   },
   "dependencies": {
-    "assert": "^1.4.1"
+    "assert": "^1.4.1",
+    "jest": "^23.6.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.7"
